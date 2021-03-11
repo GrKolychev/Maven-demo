@@ -47,8 +47,13 @@
     </properties>
 
     <dependencies>
-
         <dependency>
+            <groupId>com.github.romankh3</groupId>
+            <artifactId>image-comparison</artifactId>
+            <version>${image.comparison.version}</version>
+        </dependency>
+        <dependency>
+
             <groupId>org.mockito</groupId>
             <artifactId>mockito-core</artifactId>
             <version>${mockito.version}</version>
